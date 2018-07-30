@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <title>feedback</title>
+    <link rel="icon" href="res/logo.jpg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id=fond>
+    <h1 id="titre">Commentaires des étudiants</h1>
+    <div id="conteneur">
+
+        <div id="left">
+            <center>
+                <img src="res/wwy.jpg">
+                <h2> Pour nous donner votre avis, car ce cours est fait pour vous! Parce que tout est à propos de vous!</h2>
+
+                <p>Remplissez ce formulaire si vous:
+
+                    <br> - Trouver une erreur dans le contenu ou dans les quiz
+                    <br> - Avoir un retour sur les instructeurs ou l'expérience
+                    <br> - Avoir une suggestion pour améliorer le cours</p>
+            </center>
+        </div>
+        <div id="right">
+            <h2 id="h2">Envoyez-nous un email</h2>
+            <div class="alert" id="alert">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Merci pour vos commentaires, cher ami!</font>
+                </font>
+            </div>
+            <form id="form">
+                Prénom:
+                <br>
+                <input id="prm" type: "text" name="Prénom">
+                <select id="piste">
+                    <option selected value="ai">AI</option>
+                    <option value="jeu">JEU</option>
+                    <option value="web">WEB</option>
+                </select>
+                <br> Nom de la diapositive (ou objet) 
+                <br>
+                <input id="dpv" type: "text" name="Nom de la diapositive (ou objet)">
+                <br> Message
+                <br>
+                <input id="msg" type="text" name="Message" required>
+                <br>
+                <br>
+                <button id="smt" type="submit">SOUMETTRE</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/main.js"></script>
+</html>

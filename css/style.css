@@ -1,0 +1,63 @@
+#left{
+    float: left;
+    width: 30%;
+    background: #ff8c8c;
+    margin-left: 10%;
+    height: 450px;
+    font-family: "Adobe Devanagari"
+}
+#right{
+    float: right;
+    width: 60%;
+    background: #ffe5e5;
+    margin-bottom: 100px;
+    height: 450px;
+    font-family: "Adobe Devanagari";
+
+}
+#conteneur{
+    display: inline;
+    border: #af0000;
+    margin-top: 100px;
+    padding-top: 100px;
+    color: #630000
+}
+#titre{
+    font-family: "Adobe Devanagari";
+    margin-left: 130px;
+    color: #ffe5e5;
+    margin-top: 50px;
+}
+#form{
+    margin-left: 50px;
+}
+#h2{
+    margin-left: 50px;
+}
+#fond{
+    background: #ba0000;
+}
+#msg{
+    width: 500px;
+    height: 100px;
+}
+#smt{
+    width: 500px;
+    height:35px ;
+    color: #630000;
+}
+#prm,#dpv{
+    width: 250px;
+    height: 40px;
+}
+.alert{
+    text-align: center;
+    padding:10px;
+    background: #4f80ff;
+    color: aliceblue;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+#alert{
+    display: none;
+}
